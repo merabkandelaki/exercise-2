@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Exercises Lesson-2</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav">
+        <div class="logo-name">
+          <img class="logo" src="./image/comm.png" alt="logo" />
+          <h2>Classroom > COMM | React</h2>
+        </div>
+        <div class="img-title">
+          <img class="code" src="./image/code.png" alt="image" />
+          <h1>Exercises Lesson 2</h1>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="images-functions">
+        <img class="declaration" src="./image/declaration.jpg" alt="image1" />
+        <img class="expression" src="./image/expression.jpg" alt="image2" />
+        <img class="arrow" src="./image/arrow.jpg" alt="image3" />
+        <img class="iife" src="./image/iife.png" alt="image4" />
+      </div>
+      <div class="container">
+        <strong>Function Declarations</strong>
+        <div class="box-function">
+          <span>Greeting Function</span>
+          <div class="input-button">
+            <input type="text" class="input-name" placeholder="Enter Name" />
+            <button onclick="greet()">Click</button>
+          </div>
+          <span class="result-name"></span>
+        </div>
+        <div class="box-function">
+          <span>Addition Function</span>
+          <div class="input">
+            <input
+              type="number"
+              class="input-first-number"
+              placeholder="Enter Number"
+            />
+            <span>+</span>
+            <input
+              type="number"
+              class="input-second-number"
+              placeholder="Enter Number"
+            />
+            <span>=</span>
+            <input type="text" class="addition" />
+          </div>
+          <button onclick="add()">Click</button>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <strong>Function Expressions</strong>
+        <div class="box-function">
+          <span>Multiply Function</span>
+          <div class="input">
+            <input
+              type="number"
+              class="input-third-number"
+              placeholder="Enter Number"
+            />
+            <span>x</span>
+            <input
+              type="number"
+              class="input-fourth-number"
+              placeholder="Enter Number"
+            />
+            <span>=</span>
+            <input type="text" class="multiply" />
+          </div>
+          <button onclick="multiply()">Click</button>
+        </div>
+        <div class="box-function">
+          <span>Subtraction Function</span>
+          <div class="input">
+            <input
+              type="number"
+              class="input-fifth-number"
+              placeholder="Enter Number"
+            />
+            <span>-</span>
+            <input
+              type="number"
+              class="input-sixth-number"
+              placeholder="Enter Number"
+            />
+            <span>=</span>
+            <input type="text" class="subtraction" />
+          </div>
+          <button onclick="subtraction()">Click</button>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <strong>Arrow Function</strong>
+        <div class="box-function">
+          <span>Division Function</span>
+          <div class="input">
+            <input
+              type="number"
+              class="input-seventh-number"
+              placeholder="Enter Number"
+            />
+            <span>:</span>
+            <input
+              type="number"
+              class="input-eighth-number"
+              placeholder="Enter Number"
+            />
+            <span>=</span>
+            <input type="text" class="divide" />
+          </div>
+          <button onclick="divide()">Click</button>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <strong>Generator Function</strong>
+        <div class="box-function">
+          <span>Generator</span>
+          <div class="input-button">
+            <input
+              type="number"
+              class="input-start-number"
+              placeholder="Enter Start Number"
+            />
+            <input
+              type="number"
+              class="input-end-number"
+              placeholder="Enter End Number"
+            />
+            <button onclick="range()">Click</button>
+          </div>
+          <span class="range"></span>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <strong>Immediately Invoked Function Expression (IIFE)</strong>
+        <div class="box-function">
+          <span>Factorial Function</span>
+          <div class="input">
+            <input
+              type="number"
+              class="input-ninth-number"
+              placeholder="Enter Number"
+            />
+            <span>! =</span>
+            <input type="text" class="factorial" />
+            <button onclick="factorial()">Click</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="logo-name">
+        <img
+          class="logo-footer"
+          src="./image/logo_footer.svg"
+          alt="logo footer"
+        />
+        <h2>Classroom > COMM | React</h2>
+      </div>
+      <h3>&copy; 2024 kandelakimerab@gmail.com</h3>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
